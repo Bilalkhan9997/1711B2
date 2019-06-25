@@ -1,16 +1,6 @@
 public ActionResult AddCart(FormCollection frm)
         {
-           123== null)
-               {
-                   clsItems items = new clsItems()
-                   {
-                       ItemName = strPName,
-                       ItemPrice = strPrice,
-                       ItemQty = strQty
-                   };
-                   itemClass.Add(items);
-                   Session["AddCartItem"] = itemClass;
-                   return RedirectToAction("Products");
+           123
                }
                else
                {
@@ -21,8 +11,7 @@ public ActionResult AddCart(FormCollection frm)
                            ItemName = itmss.ItemName,
                            ItemPrice = itmss.ItemPrice,
                            ItemQty = itmss.ItemQty
-                       };
-                       itemOldRecords.Add(objectCls);
+                      456
                    }
 
                    clsItems itemsTwo = new clsItems()
