@@ -1,12 +1,6 @@
 public ActionResult AddCart(FormCollection frm)
         {
-             string strPName = frm["txtPName"].ToString();
-             int strPrice = Int32.Parse(frm["txtPPrice"].ToString());
-             int strQty = Int32.Parse(frm["txtQty"].ToString());
-             List<clsItems> itemClass = new List<clsItems>();
-             List<clsItems> itemOldRecords = new List<clsItems>();
-
-               if(Session["AddCartItem"] == null)
+           123== null)
                {
                    clsItems items = new clsItems()
                    {
